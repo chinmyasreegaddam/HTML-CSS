@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: rgb(222, 216, 216);
+            border: 1px solid black;
+            display: flex;
+            margin: 14%;
+            border-radius: 4px;
+        }
+
+        .form {
+            padding: 2%;
+            margin-left: 80px;
+        }
+
+        .form input {
+            padding: 1%;
+        }
+
+        .container .subbtn {
+            width: 30%;
+            padding: 2%;
+            background-color: rgb(22, 209, 22);
+            border: none;
+            border-radius: 10%;
+            cursor: pointer;
+
+        }
+
+        .container .resbtn {
+            width: 30%;
+            padding: 2%;
+            background-color: rgb(254, 62, 62);
+            border: none;
+            border-radius: 10%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="https://royelite.in/wp-content/uploads/2022/04/Untitled-design-1.png" />
+
+        </div>
+        <div class="form">
+            <form action="login.html">
+                <h2>Registration Form</h2>
+                <p><input type="text" placeholder="enter your Name" required></p>
+                <p><input type="email" placeholder="enter email" required></p>
+                <p><input type="password" placeholder="enter password" required></p>
+                <p><input type="password" placeholder="Re-type password" required></p>
+
+                <p> <input value="male" type="radio" name="gender">male
+                    <input value="female" type="radio" name="gender">female
+                </p>
+
+                <p><input type="date" placeholder="DOB"></p>
+                <p><input type="number" placeholder="enter contact no" required></p>
+                <p><select>
+                        <option value="select city">select city</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </select></p>
+
+                <p><input value="I agree with terms and conditions" type="checkbox">I agree with terms and conditions
+                </p>
+                <button class="subbtn">Submit</button> <button class="resbtn">Reset</button>
+            </form>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
